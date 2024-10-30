@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/vlsi_study/verilog_project_fifo/fifo/read_pointer_isim_beh.exe" -prj "F:/vlsi_study/verilog_project_fifo/fifo/read_pointer_beh.prj" "work.read_pointer" "work.glbl" 

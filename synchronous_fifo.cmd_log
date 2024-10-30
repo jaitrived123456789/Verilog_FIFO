@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/synchronous_fifo.syr" 

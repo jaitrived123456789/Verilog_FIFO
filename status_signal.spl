@@ -1,0 +1,19 @@
+[Inputs]
+wr
+rd
+fifo_we
+fifo_rd
+clk
+rst_n
+=wptr[4:0]=
+=rptr[4:0]=
+[Outputs]
+fifo_full
+fifo_empty
+fifo_threshold
+fifo_overflow
+fifo_underflow
+[BiDir]
+[ATTRIBUTES]
+VeriModel status_signal
+

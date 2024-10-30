@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+fifo_mem instance_name (
+    .data_out(data_out), 
+    .fifo_full(fifo_full), 
+    .fifo_empty(fifo_empty), 
+    .fifo_threshold(fifo_threshold), 
+    .fifo_overflow(fifo_overflow), 
+    .fifo_underflow(fifo_underflow), 
+    .clk(clk), 
+    .rst_n(rst_n), 
+    .wr(wr), 
+    .rd(rd), 
+    .data_in(data_in)
+    );
+
+

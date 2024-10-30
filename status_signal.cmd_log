@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/vlsi_study/verilog_project_fifo/fifo/fifo.v -lang verilog -prj fifo -o status_signal.spl -module status_signal -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 status_signal.spl F:/vlsi_study/verilog_project_fifo/fifo/status_signal.sym 

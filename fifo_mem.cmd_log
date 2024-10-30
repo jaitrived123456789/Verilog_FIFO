@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/fifo_mem.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/fifo_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 fifo_mem.ngc fifo_mem.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o fifo_mem_map.ncd fifo_mem.ngd fifo_mem.pcf 
+par -w -intstyle ise -ol high -mt off fifo_mem_map.ncd fifo_mem.ncd fifo_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fifo_mem.twx fifo_mem.ncd -o fifo_mem.twr fifo_mem.pcf 
+xst -intstyle ise -ifn "F:/vlsi_study/verilog_project_fifo/fifo/fifo_mem.xst" -ofn "F:/vlsi_study/verilog_project_fifo/fifo/fifo_mem.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 fifo_mem.ngc fifo_mem.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o fifo_mem_map.ncd fifo_mem.ngd fifo_mem.pcf 
+par -w -intstyle ise -ol high -mt off fifo_mem_map.ncd fifo_mem.ncd fifo_mem.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml fifo_mem.twx fifo_mem.ncd -o fifo_mem.twr fifo_mem.pcf 
+vhdtdtfi -lang verilog -prj fifo -o F:/vlsi_study/verilog_project_fifo/fifo/fifo_mem.tfi -lib work F:/vlsi_study/verilog_project_fifo/fifo//fifo.v -module fifo_mem -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim fifo_mem.ngc fifo_mem_synthesis.v 
